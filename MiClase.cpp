@@ -3,9 +3,9 @@
 using namespace std;
 
 MiClase::MiClase(){
-	salario = 0;
-	codigo = 0;
-	nombre = "N/A";
+	this->salario = 0;
+	this->codigo = 0;
+	this->nombre = "N/A";
 }
 
 MiClase::MiClase(int pCodigo, double pSalario, string pNombre){
